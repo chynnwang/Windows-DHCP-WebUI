@@ -1,0 +1,25 @@
+# ---- .NET ----
+bin/
+obj/
+publish/
+*.user
+*.suo
+
+# ---- 运行时数据 / 本地配置(切勿提交) ----
+*.db
+*.db-shm
+*.db-wal
+appsettings.Production.json
+
+# ---- 前端 ----
+node_modules/
+dist/
+dist-ssr/
+*.local
+
+# ---- 编辑器 / 系统 ----
+.vs/
+.idea/
+.DS_Store
+._*
+*.swp

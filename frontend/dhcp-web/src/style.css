@@ -1,0 +1,95 @@
+html,
+body,
+#app {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+  background: var(--app-bg);
+  color: var(--app-text);
+}
+
+/* ---- 主题令牌:浅色(默认) ---- */
+:root {
+  --app-bg: #eef1f5;
+  --app-panel: #ffffff;
+  --app-panel-2: #f7f8fa;
+  --app-border: #e5e7eb;
+  --app-text: #1f2329;
+  --app-text-muted: #8a919f;
+  --app-sidebar-bg: #ffffff;
+  --app-header-bg: #ffffff;
+  --app-brand: #4f46e5;
+  --app-brand-soft: rgba(79, 70, 229, 0.1);
+  --app-shadow: 0 1px 2px rgba(0, 0, 0, 0.04), 0 1px 3px rgba(0, 0, 0, 0.06);
+
+  /* 靛蓝主色覆盖 Element Plus */
+  --el-color-primary: #4f46e5;
+  --el-color-primary-light-3: #6d67ea;
+  --el-color-primary-light-5: #918cf0;
+  --el-color-primary-light-7: #b6b2f5;
+  --el-color-primary-light-8: #c9c6f8;
+  --el-color-primary-light-9: #ecebfc;
+  --el-color-primary-dark-2: #423bc7;
+}
+
+/* ---- 主题令牌:深色 ---- */
+html.dark {
+  --app-bg: #0b0d12;
+  --app-panel: #14171f;
+  --app-panel-2: #1a1e28;
+  --app-border: #262b36;
+  --app-text: #e6e8ec;
+  --app-text-muted: #7d8595;
+  --app-sidebar-bg: #0f1218;
+  --app-header-bg: #10131a;
+  --app-brand: #6366f1;
+  --app-brand-soft: rgba(99, 102, 241, 0.16);
+  --app-shadow: 0 1px 2px rgba(0, 0, 0, 0.4);
+
+  --el-color-primary: #6366f1;
+  --el-color-primary-light-3: #4f52d8;
+  --el-color-primary-light-5: #3f42b0;
+  --el-color-primary-light-7: #2f3184;
+  --el-color-primary-light-8: #26285f;
+  --el-color-primary-light-9: #1c1e42;
+  --el-color-primary-dark-2: #7c7ff4;
+
+  /* 深色下 Element 背景基调贴合参考图近黑面板 */
+  --el-bg-color: #14171f;
+  --el-bg-color-overlay: #1a1e28;
+  --el-bg-color-page: #0b0d12;
+  --el-fill-color-blank: #14171f;
+  --el-border-color: #262b36;
+  --el-border-color-light: #262b36;
+  --el-border-color-lighter: #21262f;
+  --el-text-color-primary: #e6e8ec;
+  --el-text-color-regular: #c4c8d0;
+  --el-text-color-secondary: #7d8595;
+}
+
+/* 通用页面标题与卡片面板,供各视图复用 */
+.page-header {
+  margin-bottom: 18px;
+}
+.page-header .page-title {
+  font-size: 20px;
+  font-weight: 700;
+  margin: 0;
+  color: var(--app-text);
+}
+.page-header .page-sub {
+  color: var(--app-text-muted);
+  font-size: 13px;
+  margin-top: 4px;
+}
+.panel {
+  background: var(--app-panel);
+  border: 1px solid var(--app-border);
+  border-radius: 12px;
+  box-shadow: var(--app-shadow);
+  padding: 18px;
+}
