@@ -23,6 +23,32 @@ Agent 只建立**出站**连接,被管服务器无需开放任何入站端口。
 
 ---
 
+## 界面预览
+
+### 工区 / 服务器(内置深色 / 浅色主题)
+
+<p align="center">
+  <img src="docs/screenshots/workspace-dark.jpg" width="49%" alt="工区/服务器 · 深色" />
+  <img src="docs/screenshots/workspace-light.jpg" width="49%" alt="工区/服务器 · 浅色" />
+</p>
+
+### 作用域管理与使用率统计
+
+<p align="center">
+  <img src="docs/screenshots/scopes-dark.jpg" width="49%" alt="作用域列表 · 深色" />
+  <img src="docs/screenshots/scopes-light.jpg" width="49%" alt="作用域列表 · 浅色" />
+</p>
+
+### 租约使用率告警(飞书群机器人)
+
+![告警配置](docs/screenshots/alerts.jpg)
+
+### 用户管理(Admin / Viewer 两级角色)
+
+![用户管理](docs/screenshots/users.jpg)
+
+---
+
 ## 技术栈
 
 | 层 | 技术 |
